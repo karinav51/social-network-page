@@ -1,0 +1,107 @@
+body {
+  background-color: darkturquoise;
+}
+header {
+  height: 365px;
+  width: 850px;
+  margin: auto;
+  background-color: black;
+  border: 5px dashed darkgrey;
+  box-sizing: border-box;
+}
+
+.page-name {
+  background-color: lightsteelblue;
+  font-family: "Permanent Marker", cursive;
+  font-size: larger;
+  color: black;
+  height: 30px;
+  width: 150px;
+  top: 80%;
+  left: 200px;
+  position: relative;
+  border: 2px dotted lightgrey;
+}
+
+.picture {
+  border: 2px magenta solid;
+  height: 130px;
+  width: 150px;
+  position: relative;
+  top: 230px;
+  left: 30px;
+  background-image: url(https://ih1.redbubble.net/image.727906326.2583/flat,128x128,075,t-pad,128x128,f8f8f8.u2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h2 {
+  position: relative;
+  background-color: lightsteelblue;
+  font-family: "Permanent Marker", cursive;
+  font-size: large;
+  color: black;
+  width: 150px;
+  height: 30px;
+  top: -55px;
+  left: 489px;
+  border: 2px dotted lightgrey;
+}
+nav {
+  position: relative;
+  float: right;
+}
+ul {
+  margin: 0%;
+  padding: 0%;
+  list-style-type: none;
+  line-height: 50px;
+}
+li {
+  display: inline;
+  color: black;
+  position: relative;
+  background-color: white;
+  font-size: x-large;
+  left: -570px;
+  top: -65px;
+}
+h3 {
+  float: right;
+  font-size: xx-large;
+  position: relative;
+  top: -180px;
+  left: 50px;
+}
+
+.column1 {
+  position: absolute;
+  background-color: black;
+  border: 2px dashed lightgrey;
+  color: magenta;
+  font-size: large;
+  float: right;
+  width: 328px;
+  height: 600px;
+  left: 285px;
+}
+h4 {
+  background-color: white;
+}
+.column2 {
+  background-color: black;
+  border: 2px dashed lightgrey;
+  color: magenta;
+  font-size: x-large;
+  position: relative;
+  float: left;
+  width: 512px;
+  height: 600px;
+  left: 615px;
+}
+h5 {
+  background-color: white;
+}
+p {
+  background-color: lightsteelblue;
+  color: midnightblue;
+}
